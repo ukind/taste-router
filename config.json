@@ -1,0 +1,147 @@
+{
+  "threshold": 3,
+  "maxMatches": 3,
+  "frontendDeps": [
+    "react", "react-dom", "next", "nuxt", "vue", "svelte", "@sveltejs/kit",
+    "solid-js", "astro", "gatsby", "remix", "@remix-run/react", "@angular/core",
+    "tailwindcss", "vite", "@vitejs/plugin-react", "sass", "styled-components",
+    "@emotion/react", "framer-motion", "gsap", "three", "@react-three/fiber",
+    "preact", "ember-source", "alpinejs", "htmx.org"
+  ],
+  "skills": {
+    "design-taste-frontend": {
+      "label": "new page / portfolio / redesign",
+      "keywords": {
+        "landing page": 3, "landing-page": 3, "portfolio site": 3, "personal site": 3,
+        "marketing site": 3, "marketing page": 3, "saas site": 3, "startup site": 3,
+        "product page": 3, "pricing page": 3, "one-pager": 3, "anti-slop": 3,
+        "not templated": 3, "looks generic": 3, "premium design": 3, "design system": 3,
+        "interface design": 3, "ui design": 3, "hero section": 3, "call to action": 3,
+        "above the fold": 3, "build a site": 3, "build a website": 3, "build a page": 3,
+        "redesign": 3, "re-design": 3,
+        "portfolio": 2, "homepage": 2, "home page": 2, "website": 2, "web page": 2,
+        "new page": 2, "frontend": 2, "front-end": 2, "responsive": 2, "mobile-first": 2,
+        "ui/ux": 2, "cta": 2,
+        "ux": 1, "hero": 1
+      }
+    },
+    "gpt-taste": {
+      "label": "GSAP / motion-heavy site",
+      "keywords": {
+        "gsap": 3, "scrolltrigger": 3, "scroll trigger": 3, "scroll animation": 3,
+        "scroll-driven": 3, "pin section": 3, "micro-interaction": 3, "microinteraction": 3,
+        "bento grid": 3, "gapless grid": 3, "editorial typography": 3, "wide typography": 3,
+        "section spacing": 3, "timeline animation": 3, "reveal on scroll": 3,
+        "smooth scroll": 3, "award-winning": 3,
+        "pinning": 2, "parallax": 2, "animation": 2, "animated": 2, "transition": 2,
+        "aida": 2, "bento": 2, "awwwards": 2, "cinematic": 2, "stagger": 2, "lenis": 2,
+        "scrubbing": 1, "scrub": 1, "motion": 1
+      }
+    },
+    "image-to-code": {
+      "label": "design image provided",
+      "keywords": {
+        "image to code": 3, "image-to-code": 3, "screenshot to code": 3,
+        "screenshot to website": 3, "figma to code": 3, "figma to website": 3,
+        "mockup to code": 3, "design to code": 3, "convert this design": 3,
+        "match this design": 3, "match this image": 3, "from this screenshot": 3,
+        "from this mockup": 3, "from this figma": 3, "recreate this design": 3,
+        "recreate this page": 3, "implement this design": 3, "implement this mockup": 3,
+        "pixel perfect": 3, "pixel-perfect": 3, "here is the design": 3,
+        "here's the design": 3, "attached design": 3, "attached screenshot": 3,
+        "design reference image": 3, "build this from the image": 3, "design provided": 3
+      }
+    },
+    "redesign-existing-projects": {
+      "label": "existing codebase UI upgrade",
+      "keywords": {
+        "redesign existing": 3, "redesign my site": 3, "redesign my app": 3,
+        "redesign the app": 3, "upgrade the ui": 3, "upgrade my ui": 3,
+        "refresh the design": 3, "refresh the ui": 3, "polish the ui": 3,
+        "improve the design": 3, "improve the ui": 3, "existing website": 3,
+        "existing app": 3, "existing project": 3, "audit the design": 3, "audit my ui": 3,
+        "make it look better": 3, "outdated design": 3, "redesign": 3, "re-design": 3,
+        "modernize": 2, "modernise": 2, "current design": 2, "current ui": 2,
+        "without breaking": 2, "keep functionality": 2, "looks dated": 2, "looks old": 2,
+        "revamp": 2, "facelift": 2, "restyle": 2
+      }
+    },
+    "imagegen-frontend-web": {
+      "label": "section-image generation (web)",
+      "keywords": {
+        "generate images for": 3, "generate section images": 3, "design references": 3,
+        "design comps": 3, "website comps": 3, "section images": 3, "hero image": 3,
+        "hero images": 3, "image direction": 3, "art direction": 3,
+        "generate a mockup image": 3, "generate landing page images": 3,
+        "image per section": 3, "one image per section": 3, "conversion-aware": 3,
+        "marketing images": 3, "product comps": 3, "web design images": 3,
+        "generate design references": 3, "image generation for website": 3,
+        "visual concepts": 3, "design concepts": 3,
+        "moodboard": 2, "mood board": 2, "visual references": 2
+      }
+    },
+    "imagegen-frontend-mobile": {
+      "label": "mobile app screens",
+      "keywords": {
+        "mobile app": 3, "mobile screen": 3, "mobile screens": 3, "ios app": 3,
+        "android app": 3, "app screen": 3, "app screens": 3, "phone mockup": 3,
+        "device mockup": 3, "app design": 3, "mobile ui": 3, "mobile design": 3,
+        "cross-platform app": 3, "react native": 3, "jetpack compose": 3,
+        "onboarding screen": 3, "bottom navigation": 3, "mobile flow": 3,
+        "screen flow": 3, "app-native": 3,
+        "iphone": 2, "flutter": 2, "swiftui": 2, "app store": 2, "tab bar": 2,
+        "android": 1
+      }
+    },
+    "brandkit": {
+      "label": "brand identity / logo system",
+      "keywords": {
+        "brand kit": 3, "brandkit": 3, "brand guidelines": 3, "brand board": 3,
+        "brand identity": 3, "identity deck": 3, "logo system": 3, "logo design": 3,
+        "logo concept": 3, "logo concepts": 3, "visual identity": 3, "brand system": 3,
+        "brand style guide": 3, "typography system": 3, "brand colors": 3,
+        "brand presentation": 3, "identity system": 3, "brand refresh": 3,
+        "brand assets": 3, "visual world": 3,
+        "style guide": 2, "color palette": 2, "wordmark": 2, "monogram": 2,
+        "rebrand": 2, "design tokens": 2
+      }
+    },
+    "minimalist-ui": {
+      "label": "minimalist aesthetic",
+      "keywords": {
+        "minimalist": 3, "minimalism": 3, "clean ui": 3, "clean design": 3,
+        "editorial style": 3, "warm monochrome": 3, "muted pastels": 3, "flat design": 3,
+        "no gradients": 3, "document-style": 3, "typography-led": 3, "swiss style": 3,
+        "quiet design": 3,
+        "editorial": 2, "monochrome": 2, "muted": 2, "pastel": 2, "whitespace": 2,
+        "white space": 2, "typographic": 2, "swiss": 2, "understated": 2, "restrained": 2,
+        "minimal": 1, "subtle": 1
+      }
+    },
+    "industrial-brutalist-ui": {
+      "label": "brutalist / industrial",
+      "keywords": {
+        "brutalist": 3, "brutalism": 3, "industrial ui": 3, "military terminal": 3,
+        "terminal aesthetic": 3, "data-heavy": 3, "data dense": 3, "raw mechanical": 3,
+        "grid-heavy": 3, "high contrast": 3, "control panel": 3, "command center": 3,
+        "ops dashboard": 3, "monitoring dashboard": 3, "cyberpunk terminal": 3,
+        "industrial": 2, "tactical": 2, "telemetry": 2, "dashboard": 2, "declassified": 2,
+        "blueprint": 2, "blueprints": 2, "utilitarian": 2, "monospace": 2, "scada": 2,
+        "hud": 1
+      }
+    },
+    "stitch-design-taste": {
+      "label": "Google Stitch DESIGN.md",
+      "keywords": {
+        "google stitch": 3, "stitch design": 3, "stitch prompt": 3, "stitch project": 3,
+        "stitch screen": 3, "stitch ui": 3, "stitch design system": 3, "stitch taste": 3,
+        "stitch agent": 3, "stitch export": 3, "stitch component": 3, "stitch theme": 3,
+        "stitch tokens": 3, "stitch guidelines": 3, "stitch spec": 3, "stitch handoff": 3,
+        "stitch to code": 3, "stitch design file": 3, "stitch canvas": 3,
+        "stitch prototype": 3, "stitch mockup": 3, "stitch layout": 3,
+        "design.md": 2, "design md": 2,
+        "stitch": 1
+      }
+    }
+  }
+}
