@@ -281,6 +281,9 @@ export function buildDirective(
 
 export default function tasteRouter(pi: ExtensionAPI): void {
 	pi.on("before_agent_start", (event) => {
+		// Custom-message runs (messageType "custom") carry no prompt; routing an
+		// empty prompt can only produce noise, so bow out before touching it.
+		if (typeof event.prompt !== "string" || !event.prompt) return;
 		const config = loadConfig();
 		const matches = classify(event.prompt, event.systemPromptOptions.cwd, config);
 		if (matches.length === 0) return;
